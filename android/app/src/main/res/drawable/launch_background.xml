@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/black" />
+
+    <!-- You can insert your own image assets here -->
+    <item>
+<!--        android:left="2dp"-->
+<!--        android:right="2dp">-->
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launcher_icon" />
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          />
+    </item>
+</layer-list>
